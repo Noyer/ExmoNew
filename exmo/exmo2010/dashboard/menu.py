@@ -115,8 +115,8 @@ class CustomMenu(Menu):
         inf_children = [
             items.MenuItem(_('Help'), reverse('exmo2010:help')),
             items.MenuItem(_('Parameter lists'),
-                           "http://www.svobodainfo.org/ru/node/1930",
-                           template='user_dashboard/item_target_blank.html'),
+	                           "http://87.241.169.46:8080/share/list.html",
+	                           template='user_dashboard/item_target_blank.html'),
             items.MenuItem(_('About project'), reverse('exmo2010:about')),
             ]
         self.children.append(items.MenuItem(_('Information'),
